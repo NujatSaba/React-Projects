@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 html , body{
     height: 100%;
@@ -10,13 +11,17 @@ html , body{
 }
 
 .parent{
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
-  background-color: #111;
+  background-color: #cecece;
   padding: 30px;
-  
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 
 }
+
+/* card */
 
 .card{
   height: 280px;
@@ -24,8 +29,12 @@ html , body{
   background-color: #fcfcfc;
   border-radius: 20px;
   padding: 25px;
-  
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
 }
+
+/* top section starts here */
 
 .top{
   display: flex;
@@ -35,8 +44,8 @@ html , body{
 }
 
 .logo{
-  height: 37px;
-  width: 37px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   border: 1.5px solid rgb(185, 185, 185);
   padding: 4px;
@@ -57,8 +66,14 @@ html , body{
 
 }
 
+/* top section ends here */
+
+/* center section starts here */
+
 .center{
-  margin-top: 20px;
+  height: 50%;
+  margin-top: 10px;
+  /* background-color: aqua; */
 }
 
 .user{
@@ -98,17 +113,19 @@ html , body{
 
 }
 
+/* center section ends here */
+
 
 .line{
 
-  margin-top: 50px;
+  margin-top: 20px;
   border-top: 1px solid #e0e0e0;
 }
 
 /* Bottom section starts here */
 
 .bottom{
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
 
@@ -137,3 +154,5 @@ html , body{
   border: none;
   
 }
+
+/* Bottom section ends here */
