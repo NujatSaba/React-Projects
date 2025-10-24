@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 html , body{
     height: 100%;
@@ -18,9 +19,121 @@ html , body{
 }
 
 .card{
-  height: 300px;
+  height: 280px;
   width: 250px;
-  background-color: #fff;
+  background-color: #fcfcfc;
   border-radius: 20px;
+  padding: 25px;
+  
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.logo{
+  height: 37px;
+  width: 37px;
+  border-radius: 50%;
+  border: 1.5px solid rgb(185, 185, 185);
+  padding: 4px;
+
+}
+
+.top button{
+  background-color: rgb(243, 243, 243);
+  color: #7b7b7b;
+  font-weight: 500;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1.5px solid rgb(183, 183, 183);
+
+}
+
+.center{
+  margin-top: 20px;
+}
+
+.user{
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items:last baseline;
+  gap: 10px;
+  
+}
+
+.user span{
+  font-size: 8px;
+  font-weight: 500;
+  color: #7b7b7b;
+
+}
+
+.post{
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.tag{
+  display: flex;
+  gap: 10px;
+  font-size: 8px;
+  margin-top: 10px;
+ 
+}
+.tag h3{
+   background-color: #e7e7e7;
+   padding: 6px 10px 6px 10px;
+   border-radius: 5px;
+   font-weight: 400;
+
+}
+
+
+.line{
+
+  margin-top: 50px;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Bottom section starts here */
+
+.bottom{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.payment{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.location{
+  font-size: 8px;
+  font-weight: 500;
+  color: #7b7b7b;
+  margin-top: 5px;
+}
+
+.bottom button{
+  background-color: #161616;
+  color: white;
+  padding: 0px 12px 0px 12px;
+  /* padding-left: 12px;
+  padding-right: 12px; */
+    font-size: 9px;
+  border-radius: 5px;
+  border: none;
   
 }
