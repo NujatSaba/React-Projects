@@ -1,16 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-html , body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-.parent{
+.parent {
   min-height: 100vh;
   width: 100%;
   background-color: #cecece;
@@ -18,12 +18,11 @@ html , body{
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-
 }
 
 /* card */
 
-.card{
+.card {
   height: 280px;
   width: 250px;
   background-color: #fcfcfc;
@@ -36,23 +35,21 @@ html , body{
 
 /* top section starts here */
 
-.top{
+.top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
-.logo{
+.logo {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   border: 1.5px solid rgb(185, 185, 185);
   padding: 4px;
-
 }
 
-.top button{
+.top button {
   background-color: rgb(243, 243, 243);
   color: #7b7b7b;
   font-weight: 500;
@@ -63,96 +60,87 @@ html , body{
   padding: 5px;
   border-radius: 4px;
   border: 1.5px solid rgb(183, 183, 183);
-
 }
 
 /* top section ends here */
 
 /* center section starts here */
 
-.center{
+.center {
   height: 50%;
   margin-top: 10px;
   /* background-color: aqua; */
 }
 
-.user{
+.user {
   font-size: 14px;
   font-weight: 500;
   display: flex;
-  align-items:last baseline;
+  align-items: last baseline;
   gap: 10px;
-  
 }
 
-.user span{
+.user span {
   font-size: 8px;
   font-weight: 500;
   color: #7b7b7b;
-
 }
 
-.post{
+.post {
   margin-top: 8px;
   font-size: 15px;
   font-weight: 600;
 }
 
-.tag{
+.tag {
   display: flex;
   gap: 10px;
   font-size: 8px;
   margin-top: 10px;
- 
 }
-.tag h3{
-   background-color: #e7e7e7;
-   padding: 6px 10px 6px 10px;
-   border-radius: 5px;
-   font-weight: 400;
-
+.tag h3 {
+  background-color: #e7e7e7;
+  padding: 6px 10px 6px 10px;
+  border-radius: 5px;
+  font-weight: 400;
 }
 
 /* center section ends here */
 
-
-.line{
-
+.line {
   margin-top: 20px;
   border-top: 1px solid #e0e0e0;
 }
 
 /* Bottom section starts here */
 
-.bottom{
+.bottom {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
-
 }
 
-.payment{
+.payment {
   font-size: 14px;
   font-weight: 500;
 }
 
-.location{
+.location {
   font-size: 8px;
   font-weight: 500;
   color: #7b7b7b;
   margin-top: 5px;
 }
 
-.bottom button{
+.bottom button {
   background-color: #161616;
   color: white;
   padding: 0px 12px 0px 12px;
   /* padding-left: 12px;
   padding-right: 12px; */
-    font-size: 9px;
+  font-size: 9px;
   border-radius: 5px;
   border: none;
-  
 }
 
 /* Bottom section ends here */
